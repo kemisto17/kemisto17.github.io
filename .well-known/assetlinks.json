@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kemisto17.varta",
+      "sha256_cert_fingerprints": [
+        "FD:32:3A:45:EA:1E:33:B0:B7:52:E2:16:F5:E8:81:F4:62:D3:6B:ED:ED:A8:B8:57:19:F8:91:FB:B7:70:17:6E",
+        "EF:F2:30:26:48:2D:86:75:88:0A:CA:89:DA:7B:C8:53:A6:D8:D8:B5:26:36:00:23:D1:AD:DC:EC:52:0A:3B:43"
+      ]
+    }
+  }
+]
