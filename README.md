@@ -3,7 +3,7 @@
 This user site owns Android App Link verification for Varta and redirects the
 domain root to the Varta project website.
 
-The current `assetlinks.json` contains the Android Studio debug certificate so
-locally installed development builds can be verified. Before distributing
-Varta through Google Play, add the Play App Signing SHA-256 fingerprint to the
-same `sha256_cert_fingerprints` array.
+The current `assetlinks.json` publishes two SHA-256 certificate fingerprints.
+Before each Android release, verify that one exactly matches the Play App
+Signing certificate for `com.kemisto17.varta`. Keep only fingerprints whose
+origin is known and still needs App Link verification.
